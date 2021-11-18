@@ -1,0 +1,44 @@
+td 
+{
+	border:  2px solid #332;
+	height:  100px;
+	width:  100px;
+	text-align: center;
+	vertical-align: middle;
+	
+	font-size:  70px;
+	cursor:  pointer;
+}
+
+table
+{
+	border-collapse:  collapse;
+	position:  absolute;
+	left:  50%;
+	margin-left:  -155px;
+	top:  50px;
+}
+
+button
+{
+	background-color: lightblue;
+	font-size: 50px;
+	border-radius: 25px;
+	border-color: lightgoldenrodyellow;
+	margin: 0 auto;
+	display: block;
+	margin-top:  390px;
+
+
+}
+
+p
+{
+	font-family:  Verdana, sans-serif;
+	font-weight: bold;
+}
+label
+{
+	font-family:  Verdana, sans-serif;
+	font-weight: bold;
+}
