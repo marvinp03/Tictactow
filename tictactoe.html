@@ -7,7 +7,8 @@
 	<link rel="stylesheet" href = "style.css">
 </head>
 <body>
-	// board for the tic tac toe game
+	
+	<!board for the tic tac toe game> 
 	<table>
 		<tr>
 			<td class = "cell "  id = "0"> </td>
@@ -28,14 +29,27 @@
 	</table>
 
 
-	// prompt wether the player wins or lose
+	
+	<!prompt wether the player wins or lose> 
 	<div class = "endgame">
 		<div class = "text"></div>
 	</div>	
 
 
-    // replay button
+    <!replay button> 
     <button onClick = "startgame()"> REPLAY </button>
+
+
+    <p>Select your difficulty </p>
+    <div>
+    <!difficulty selector> 
+    <input type="radio" id="choice1" name="diff" value="easy">
+	<label for="html">Easy</label><br>
+	<input type="radio" id="choice2" name="diff" value="medium">
+	<label for="css">Medium</label><br>
+	<input type="radio" id="choice3" name="diff" value="hard">
+	<label for="javascript">Hard</label>
+    </div>
 
 	<script src = "script.js"></script>
 </body>
